@@ -1,0 +1,72 @@
+
+h1 {
+    color:white;
+    font-size: 50px;
+}
+h1:hover {
+    color: black;
+}
+h2{
+    color: white;
+}
+body {
+    background-color: #FAA7C9;
+    font-family: sans-serif;
+    text-align: center;
+}
+div {
+    width: 500px;
+    margin: 0 auto;
+}
+.list{
+    text-align: left;
+    line-height: 2em;
+}
+
+img {
+    width: 200px;
+}
+
+.topquote {
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.presnelson {
+    font-size: 1.1em;
+}
+
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 0 94px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    width: 25%;
+  }
+
+ol {
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+h2 {
+    font-size: small;
+}
+
