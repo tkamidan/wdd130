@@ -1,7 +1,7 @@
 
 h1 {
     color:white;
-    font-size: 50px;
+    font-size: 40px;
 }
 h1:hover {
     color: black;
@@ -32,6 +32,7 @@ img {
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 15px
     
 }
 
@@ -41,7 +42,7 @@ img {
 
 .paragraph{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 35px;
     padding: 0 94px;
     color: white;
     text-align: center;
@@ -66,7 +67,4 @@ li {
     padding-bottom: 4px;
 }
 
-h2 {
-    font-size: small;
-}
 
