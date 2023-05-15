@@ -1,0 +1,23 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    grid-column: 2/5;
+    text-align: center;
+}
+
+section {
+    grid-column: 2/4;
+    text-align: center;
+}
+
+footer {
+    grid-column: 1/-1;
+    text-align: center;
+}
