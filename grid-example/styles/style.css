@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+
+.sec1 {
+    background-color: olive;
+    grid-column: 1/-1;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+}
