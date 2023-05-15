@@ -5,6 +5,8 @@ main {
 
 img {
     width: 100%;
+    justify-self: center;
+    align-self: center;
 }
 
 header {
