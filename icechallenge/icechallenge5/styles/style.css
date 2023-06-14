@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+body{
+    margin: 0 auto;
+    justify-content: center;
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 330px 1fr;
+}
+h1 {
+    text-align: center;
+    margin-top: -12px;
+}
+h2 {
+    text-align: center;
+    font-size: small;
+    color: #405C89;
+}
+p {
+    text-align: center;
+    color: #8B808B;
+}
+div {
+    justify-content: center;
+    grid-column: 2/3;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+main {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5%;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #405C89;
+    height: 70px;
+    align-items: center;
+    justify-items: center;
+}
+#read {
+    grid-column: 1/2;
+    color: white;
+    text-align: center;
+    margin: auto;
+    size: 100%
+
+}
+#views{
+    grid-column: 2/3;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-right-color: grey;
+    border-left-color: grey;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    
+
+
+}
+#comments{
+    grid-column: 3/4;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
