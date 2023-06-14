@@ -70,14 +70,15 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #023E8A;
-    color: aliceblue;
+    background-color: #F9C257;
+    color: #0b6785;
     text-decoration: none;
     text-align: center;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .book:hover {
@@ -203,7 +204,7 @@ main section img {
 
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: -100px; 
 }
 
@@ -216,16 +217,20 @@ main section img {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
+    background-color: #0b6785;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #000000a2;
 }
 
 .home-title {
-    color: white;
+    color: #75b5f8;
 }
 
 #hero-msg h4 {
-    color: white;
+    color: aliceblue;
 }
 
 .card-img, .mountains {
