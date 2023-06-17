@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+header {
+    display: grid;
+    background-color: #0096C7;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #0077B6;
+    color: aliceblue;
+}
+
+#beginning-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ending-imgs {
+    width: 100px;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+#ending-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 50px;
+    justify-items: center;
+    text-align: center;
+}
+
+h4 {
+    font-size: medium;
+    color: #03045E;
+}
+
+.credit-links {
+    font-size: small;
+}
+
+#contactus-image {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+h1 {
+    color: #03045E;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#text-section {
+    padding: 50px;
+    color: #03045E;
+}
+
+nav a:hover {
+    background-color: #0077B6;
+    color: aliceblue;
+}
+
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #0077B6;
+    color: aliceblue;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+
+footer {
+    background-color: #0096C7;
+    color: aliceblue;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+}
