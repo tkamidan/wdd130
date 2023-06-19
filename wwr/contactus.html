@@ -42,6 +42,28 @@
         </section>
     </div>
 
+    <div id="feedback"></div>
+        <form action="#" method="post" onsubmit="event.preventDefault(); handleFormSubmission(this);">
+            <h1>Form:</h1>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+
     <a href="https://www.flaticon.com/free-icons/phone" title="phone icons" class="credit-links">Phone icons created by Gregor Cresnar - Flaticon</a>
     <a href="https://www.flaticon.com/free-icons/mail" title="mail icons" class="credit-links">Mail icons created by Gregor Cresnar - Flaticon</a>
     <a href="https://www.flaticon.com/free-icons/share" title="share icons" class="credit-links">Share icons created by Gregor Cresnar - Flaticon</a>
@@ -62,5 +84,18 @@
             </a>
         </div>
     </footer>
+    <script>
+        const feedbackElement = document.querySelector('#feedback');
+        const formElement = document.forms[0];
+
+        formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = 'Thank you for your message. We will get back to you as soon as possible!';
+        feedbackElement.style.display = 'block';
+        document.body.classList.toggle('moveDown');
+        });
+
+    </script>
+    
 </body>
 </html>
