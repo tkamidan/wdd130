@@ -58,3 +58,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100px;
 }
+
+.box {
+    background-color: black;
+}
