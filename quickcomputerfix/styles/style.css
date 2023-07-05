@@ -21,10 +21,9 @@ header div{
     grid-template-columns: 320px 1fr;
 }
 
-header nav {
-    margin-left: 300px;
+header nav {    
     padding: 35px;
-    float: right;
+    justify-self: end;
 }
 
 header nav a {
@@ -132,4 +131,104 @@ footer nav a {
 
 footer nav a:hover {
     background-color: #7868fa;
+}
+
+#img_section {
+    position: relative;
+    width: 100%;
+    margin-right: 40px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5A4AE3;
+    border-radius: 10px;
+  }
+  
+  #img_section:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+@media only screen and (max-width: 1280px) {
+    footer h4 {
+        float: none;
+        text-align: center;
+    }
+    
+    footer nav {
+        float: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    footer nav a {
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header div {
+        width: 980px;
+    }
+    
+    #main_section {
+        width: 980px;
+    }
+
+    #main_section p {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 980px) {   
+    header div {
+        width: 700px;
+        grid-template-columns: 200px 1fr;
+    }
+
+    header nav {
+        padding: 15px;
+    }
+
+    header nav a {
+        font-size: small;
+        padding: 15px;
+    }
+
+    #main_section {
+        width: 700px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    
 }
