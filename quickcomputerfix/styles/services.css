@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: #EFEFEF;
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+h4 {
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 5px solid #52AA8A;
+}
+
+header div{
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: 320px 1fr;
+}
+
+header nav {    
+    padding: 35px;
+    justify-self: end;
+}
+
+header nav a {
+    padding: 30px;
+    color: #5A4AE3;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header nav a:hover {
+    background-color: #fdfbfb;
+}
+
+#logo {
+    width: 100%;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#head_services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#head_services section{
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.text_section {
+    font-size: 40px;
+}
+
+#services_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#services_grid section {
+    padding: 10px;
+}
+
+#services_grid h4 {
+    text-align: center;
+}
+
+#bottom_services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bottom_services section {
+    padding: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #5A4AE3;
+    color: #EFEFEF;
+    border-color: #EFEFEF;
+}
+
+button:hover {
+    background-color: #7868fa;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+footer {
+    background-color: #5A4AE3;
+    color: #EFEFEF;
+    overflow: hidden;
+}
+
+footer h4 {
+    float: left;
+    margin-left: 20px;
+}
+
+footer nav {
+    float: right;
+    overflow: hidden;
+    padding: 20px;
+}
+
+footer nav a {
+    color: #EFEFEF;
+    text-decoration: none;
+    padding: 70px;
+}
+
+footer nav a:hover {
+    background-color: #7868fa;
+}
